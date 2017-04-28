@@ -14,5 +14,5 @@ docker-compose up
 
 For production run: 
 ```
-docker build . <name>
+docker build -t <name> .
 ```
