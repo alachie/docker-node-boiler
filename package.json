@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon index.js",
-    "cleanup": "rm -rf .git && yarn init"
+    "cleanup": "rm -rf .git && yarn init && git init"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
