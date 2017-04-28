@@ -1,0 +1,9 @@
+FROM node:alpine
+
+EXPOSE 3000
+WORKDIR /app
+
+ENV NODE_ENV development
+ADD package.json /app
+
+RUN yarn install
